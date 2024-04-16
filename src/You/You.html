@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Color and Font Styles</title>
+  <style>
+    /* Define styles for the tables */
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+    }
+    th {
+      background-color: lightgray;
+    }
+
+    /* Define styles for the font table */
+    .font-table {
+      font-family: Arial, sans-serif;
+    }
+    .font-table td {
+      font-size: 14px;
+    }
+    .font-bold {
+      font-weight: bold;
+    }
+    .font-italic {
+      font-style: italic;
+    }
+    .font-underline {
+      text-decoration: underline;
+    }
+    .font-strike {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <!-- Color Tables -->
+  <h2>Color Tables</h2>
+  <table>
+    <caption>Red Shades</caption>
+    <tr>
+      <th>Color</th>
+      <th>Hex Value</th>
+    </tr>
+    <tr>
+      <td style="background-color: #FF0000;"></td>
+      <td>#FF0000</td>
+    </tr>
+    <tr>
+      <td style="background-color: #FF3333;"></td>
+      <td>#FF3333</td>
+    </tr>
+    <tr>
+      <td style="background-color: #FF6666;"></td>
+      <td>#FF6666</td>
+    </tr>
+  </table>
+
+  <table>
+    <caption>Green Shades</caption>
+    <tr>
+      <th>Color</th>
+      <th>Hex Value</th>
+    </tr>
+    <tr>
+      <td style="background-color: #00FF00;"></td>
+      <td>#00FF00</td>
+    </tr>
+    <tr>
+      <td style="background-color: #33FF33;"></td>
+      <td>#33FF33</td>
+    </tr>
+    <tr>
+      <td style="background-color: #66FF66;"></td>
+      <td>#66FF66</td>
+    </tr>
+  </table>
+
+  <!-- Font Styles Table -->
+  <h2>Font Styles</h2>
+  <table class="font-table">
+    <tr>
+      <th>Style</th>
+      <th>Example</th>
+    </tr>
+    <tr>
+      <td class="font-bold">Bold</td>
+      <td class="font-bold">This text is bold</td>
+    </tr>
+    <tr>
+      <td class="font-italic">Italic</td>
+      <td class="font-italic">This text is italic</td>
+    </tr>
+    <tr>
+      <td class="font-underline">Underline</td>
+      <td class="font-underline">This text is underlined</td>
+    </tr>
+    <tr>
+      <td class="font-strike">Strike Through</td>
+      <td class="font-strike">This text has a strike-through</td>
+    </tr>
+  </table>
+</body>
+</html>
